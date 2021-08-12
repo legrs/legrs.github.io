@@ -23,6 +23,7 @@ margin: 0 auto;
 padding: 0;
 width: 80%;
 text-align: center;
+    transition: all 1000ms 0s ease;
 }
 nav ul li{
 display: table-cell;
