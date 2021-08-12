@@ -13,6 +13,7 @@ nav{
 nav{
 border-bottom: 5px solid #ccc;
 position: relative;
+  font-size: 15px
 }
 nav ul{
 position: absolute;
@@ -22,7 +23,6 @@ margin: 0 auto;
 padding: 0;
 width: 80%;
 text-align: center;
-  font-size: 15px
 }
 nav ul li{
 display: table-cell;
