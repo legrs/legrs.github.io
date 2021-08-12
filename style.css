@@ -41,7 +41,7 @@ color: #aaa;
 nav ul li.current{
 font-weight: bold;
 border-top: 5px solid #00B0F0;
-font-size: 20px
+font-size: 15px
 }
 nav ul li.current a{
 color: #00B0F0;
