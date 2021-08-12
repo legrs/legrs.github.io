@@ -31,9 +31,9 @@ nav ul li.current a{
 color: #00B0F0;
 }
 nav ul li a:hover{
-color: #0089BB;
-background-color: #FBFBDD;
+color: #ffffff;
+background-color: #ccccff;
 }
 nav ul li:hover{
-border-top: 5px solid #F8E750;
+border-top: 5px solid #88aaff;
 }
