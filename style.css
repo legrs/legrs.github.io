@@ -1,23 +1,39 @@
 nav{
-text-align: center;
+border-bottom: 5px solid #ccc;
+position: relative;
 }
 nav ul{
-margin: 0 ;
-padding: 0 ;
+position: absolute;
+left:10%;
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+text-align: center;
 }
 nav ul li{
-list-style: none;
-display: inline-block;
-width: 18%;
-min-width: 90px;
+display: table-cell;
+min-width: 50px;
 }
 nav ul li a{
+display: block;
+width: 100%;
+height: 100%;
+padding: 10px 0;
 text-decoration: none;
-color: #333;
+color: #aaa;
+}
+nav ul li.current{
+font-weight: bold;
+border-top: 5px solid #00B0F0;
 }
 nav ul li.current a{
-color: #F33135;
+color: #00B0F0;
 }
 nav ul li a:hover{
-color: #E7DA66;
+color: #0089BB;
+background-color: #FBFBDD;
+}
+nav ul li:hover{
+border-top: 5px solid #F8E750;
 }
