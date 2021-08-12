@@ -1,6 +1,6 @@
 h2 {
   padding: 1rem 2rem;
-  border-left: 5px solid #eee;
+  border-left: 5px solid #aaa;
   background: #f4f4f4;
 }
 a {
@@ -41,7 +41,7 @@ color: #aaa;
 nav ul li.current{
 font-weight: bold;
 border-top: 5px solid #00B0F0;
-
+font-size: 10px
 }
 nav ul li.current a{
 color: #00B0F0;
