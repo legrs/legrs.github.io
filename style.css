@@ -3,6 +3,11 @@ h2 {
   border-left: 5px solid #000;
   background: #f4f4f4;
 }
+h1:after {
+content:"☆彡";
+color:#F90;
+font-weight:bold;
+}
 a {
     text-decoration:none; 
 }
