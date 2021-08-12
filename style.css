@@ -51,6 +51,5 @@ background-color: #ccccff;
 }
 nav ul li:hover{
 border-top: 5px solid #88aaff;
-  height: 50px;
     transition: all 50ms 0s ease;
 }
