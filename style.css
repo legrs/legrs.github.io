@@ -48,7 +48,7 @@ color: #00B0F0;
 nav ul li a:hover{
 color: #ffffff;
 background-color: #ccccff;
-
+height: 50px;
 }
 nav ul li:hover{
 border-top: 5px solid #88aaff;
