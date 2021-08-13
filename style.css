@@ -16,15 +16,19 @@ h2 {
 a {
     text-decoration:none; 
 }
-.nav{
+nav {
+position: fixed;
+}
+
+nav{
     background-color: #eeeeee;
     height: 53px;
 }
-.nav{
+nav{
 border-bottom: 5px solid #ccc;
 position: relative;
 }
-.nav ul{
+nav ul{
 position: absolute;
 left:10%;
 display: table;
@@ -33,12 +37,12 @@ padding: 0;
 width: 80%;
 text-align: center;
 }
-.nav ul li{
+nav ul li{
 display: table-cell;
 min-width: 50px;
 transition: all 300ms 0s ease;
 }
-.nav ul li a{
+nav ul li a{
 display: block;
 width: 100%;
 height: 100%;
@@ -50,24 +54,21 @@ background-color: #eee;
 transition: background-color 300ms 0s;
 transition: color 300ms 0s;
 }
-.nav ul li.current{
+nav ul li.current{
 font-weight: bold;
 border-top: 5px solid #00B0F0;
 }
-.nav ul li.current a{
+nav ul li.current a{
 color: #00B0F0;
  transition: color 300ms 0s;
 }
-.nav ul li a:hover{
+nav ul li a:hover{
 color: #ffffff;
 background-color: #ccccff;
 transition: background-color 300ms 0s;
 }
-.nav ul li:hover{
+nav ul li:hover{
 border-top: 5px solid #88aaff;
 transition: all 50ms 0s ease;
 }
 
-.menu {
-position: fixed;
-}
