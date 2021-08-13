@@ -16,7 +16,8 @@ body{
 }
 .prof{
     background-color: #eee;
-    
+    padding:20px;
+    margin:auto;
 }
 footer {
   margin-top: auto;
