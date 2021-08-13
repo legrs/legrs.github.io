@@ -17,14 +17,9 @@ a {
     text-decoration:none; 
 }
 nav{
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 10000;    
-}
-nav{
     background-color: #eeeeee;
     height: 53px;
+    position: fixed;
 }
 nav{
 border-bottom: 5px solid #ccc;
