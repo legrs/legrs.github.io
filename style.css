@@ -16,10 +16,10 @@ h2 {
 a {
     text-decoration:none; 
 }
-nav {
+.menu {
 position: fixed;
-z-index: 999;
 }
+
 nav{
     background-color: #eeeeee;
     height: 53px;
