@@ -16,10 +16,6 @@ h2 {
 a {
     text-decoration:none; 
 }
-.menu {
-position: fixed;
-}
-
 nav{
     background-color: #eeeeee;
     height: 53px;
@@ -70,4 +66,8 @@ transition: background-color 300ms 0s;
 nav ul li:hover{
 border-top: 5px solid #88aaff;
 transition: all 50ms 0s ease;
+}
+
+.menu {
+position: fixed;
 }
