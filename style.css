@@ -17,17 +17,12 @@ h2 {
 a {
     text-decoration:none; 
 }
-nav {
-position: fixed;
-}
 
 nav{
-    background-color: #eeeeee;
+        background-color: #eeeeee;
     height: 53px;
-}
-nav{
     border-bottom: 5px solid #ccc;
-    position: relative;
+    position: fixed;
 }
 nav ul{
     position: absolute;
