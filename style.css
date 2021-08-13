@@ -13,10 +13,6 @@ h2 {
     color: #2c2c2f;
     background: #eee;
 }
-.countbox p {
-    margin: 0; 
-    padding: 0;
-}
 a {
     text-decoration:none; 
 }
@@ -25,9 +21,6 @@ nav{
   width: 100%;
   top: 0;
   z-index: 10000;    
-}
-#container {
-  padding-top: 150px;
 }
 nav{
     background-color: #eeeeee;
