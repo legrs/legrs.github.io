@@ -39,7 +39,8 @@ height: 100%;
 padding: 10px 0;
 text-decoration: none;
 color: #aaa;
-font-size: 20px
+font-size: 20px;
+background-color: #eee;
 }
 nav ul li.current{
 font-weight: bold;
@@ -51,9 +52,9 @@ color: #00B0F0;
 nav ul li a:hover{
 color: #ffffff;
 background-color: #ccccff;
-        transition: all 50ms 0s ease;
+transition: all 50ms 0s ease;
 }
 nav ul li:hover{
 border-top: 5px solid #88aaff;
-    transition: all 50ms 0s ease;
+transition: all 50ms 0s ease;
 }
