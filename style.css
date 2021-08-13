@@ -11,7 +11,8 @@ h2 {
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #2c2c2f;
-    background: #eee;/*背景色*/
+    background: #eee;
+    
 }
 .countbox p {
     margin: 0; 
@@ -19,6 +20,15 @@ h2 {
 }
 a {
     text-decoration:none; 
+}
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;    
+}
+#container {
+  padding-top: 150px;
 }
 nav{
     background-color: #eeeeee;
