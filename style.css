@@ -9,6 +9,15 @@ body{
   flex-direction: column;
   min-height: 100vh;
 }
+.tokuitigau{
+    color: red;
+    font-size: 200%;
+    
+}
+.prof{
+    background-color: #eee;
+    
+}
 footer {
   margin-top: auto;
 }
