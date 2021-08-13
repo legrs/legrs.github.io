@@ -7,6 +7,10 @@ h2 {
   border-left: 5px solid #aaa;
   background: #f4f4f4;
 }
+.acsescountbox {
+margin:0px; padding:0px; border:0px;
+background-color:#eee;
+}
 a {
     text-decoration:none; 
 }
