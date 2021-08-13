@@ -2,12 +2,13 @@
 body{
     margin: 0;
     padding: 0;
-}
-
-#fotternotest {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+#fotternotest {
+
 }
 footer {
   margin-top: auto;
