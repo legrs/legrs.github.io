@@ -7,9 +7,15 @@ h2 {
   border-left: 5px solid #aaa;
   background: #f4f4f4;
 }
-.acsescountbox {
-margin:0px; padding:0px; border:0px;
-background-color:#eee;
+.countbox {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #eee;/*背景色*/
+}
+.countbox p {
+    margin: 0; 
+    padding: 0;
 }
 a {
     text-decoration:none; 
