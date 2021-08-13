@@ -41,6 +41,7 @@ text-decoration: none;
 color: #aaa;
 font-size: 20px;
 background-color: #eee;
+transition: background-color 4s 1s;
 }
 nav ul li.current{
 font-weight: bold;
