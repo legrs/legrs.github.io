@@ -47,8 +47,9 @@ body{
 
 
 
-
-
+.haikeiusu{
+	font-size:200%;
+	
 
 #fotternotest {
   display: flex;
