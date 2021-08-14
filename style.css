@@ -39,8 +39,7 @@ body{
 	color:#555;
 }
 .btn:active{
-	border-bottom: none;
-	box-shadow: none;
+	border-bottom: 0px solid #888;
 	margin-top: 5px;
 	transition: 100ms;
 }
