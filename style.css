@@ -6,7 +6,7 @@ body{
 .usuisironisuru{
     width:1000px;
     height:500px;
-    margin:auto;
+    text-align: center;
     position: relative; 
     top: 250px; 
     
@@ -15,7 +15,7 @@ body{
     background-color:rgba(255,255,255,0.8);
     width: 200px;
     height: 200px;
-    margin: auto;
+    text-align: center;
     z-index:100;
 }
 #fotternotest {
