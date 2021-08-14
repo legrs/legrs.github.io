@@ -8,6 +8,8 @@ body{
     height:500px;
     margin: 0 auto;
     bacground-color:#ccc;
+    position:relative;
+        z-index:100;
 }
 .haikeiusu{
     
@@ -15,9 +17,9 @@ body{
     width: 800px;
     height: 800px;
     margin: 0 auto;
-    z-index:100;
      position: relative; 
     top: -2500px; 
+        z-index:100;
 }
 #fotternotest {
   display: flex;
