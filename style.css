@@ -19,13 +19,12 @@ body{
 
 .btn{
 	display: inline-block;
-	width: 80px;
-	height: 40px;
-	border: solid 1px #888;
-	color: black;
+	width: 100px;
+	height: 60px;
+	border: solid 2px #888;
+	color: #eee;
 	text-decoration: none;
 	text-align: center;
-	line-height: 80px;
 	background-color: #afa;
 	border-radius: 8px;
 	transition: 400ms;
