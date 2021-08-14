@@ -20,12 +20,13 @@ body{
 .btn{
 	display: inline-block;
 	width: 100px;
-	height: 60px;
+	height: 50px;
 	border: solid 2px #888;
-	color: #eee;
+	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	background-color: #afa;
+	line-height:25px;
+	background-color: #4f4;
 	border-radius: 8px;
 	transition: 400ms;
 	position: relative; 
@@ -33,7 +34,8 @@ body{
 
 }
 .btn:hover{
-	background-color: #ccffcc;
+	background-color: #8f8;
+	color:black;
 }
 .btn:active{
 	box-shadow: none;
