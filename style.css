@@ -17,7 +17,7 @@ body{
     margin: 0 auto;
     z-index:100;
      position: relative; 
-    top: 1000px; 
+    top: 500px; 
 }
 #fotternotest {
   display: flex;
