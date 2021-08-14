@@ -17,6 +17,9 @@ body{
 
 
 
+
+
+
 .btn{
 	display: inline-block;
 	width: 100px;
@@ -47,8 +50,23 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .haikeiusu{
 	font-size:200%;
+	margein: 0 auto;
 }
 
 #fotternotest {
