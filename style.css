@@ -6,6 +6,9 @@ body{
 .usuisironisuru{
     width:1000px;
     height:500px;
+    margin:auto;
+    position: relative; 
+    top: 250px; 
     
 }
 .haikeiusu{
