@@ -9,6 +9,9 @@ body{
     margin: 0 auto;
     bacground-color:#ccc;
 }
+hr{
+    border: 4mm ridge #ccc;
+}
 #fotternotest {
   display: flex;
   flex-direction: column;
