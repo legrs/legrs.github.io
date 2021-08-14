@@ -11,9 +11,9 @@ body{
 }
 .haikeiusu{
     background-color:rgba(255,255,255,0.8);
-    width: 200px;
-    height: 200px;
-    text-align: center;
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
     z-index:100;
 }
 #fotternotest {
