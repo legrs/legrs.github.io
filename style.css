@@ -16,11 +16,13 @@ body{
     width: 200px;
     height: 200px;
     margin: auto;
+    z-index:100;
 }
 #fotternotest {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+    z-index:5000;
 }
 .tokuitigau{
     color: red;
