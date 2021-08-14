@@ -10,13 +10,14 @@ body{
     
 }
 .haikeiusu{
+        margin: 0 auto;
     background-color:rgba(255,255,255,0.8);
     width: 800px;
     height: 800px;
     margin: 0 auto;
     z-index:100;
      position: relative; 
-    top: 250px; 
+    top: 1000px; 
 }
 #fotternotest {
   display: flex;
