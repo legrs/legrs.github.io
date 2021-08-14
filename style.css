@@ -27,9 +27,11 @@ body{
 	text-align: center;
 	line-height: 80px;
 	background-color: #afa;
-	border-radius: 16px;
+	border-radius: 8px;
 	transition: 400ms;
-	box-shadow: inset 0 -5px 5px rgba(0,0,0, 0.5);
+	position: relative; 
+    	top: 20px; 
+
 }
 .btn:hover{
 	background-color: #ccffcc;
@@ -37,7 +39,7 @@ body{
 .btn:active{
 	box-shadow: none;
 	margin-top: 2px;
-	height: 78px;
+	height: 40px;
 	transition: none;
 }
 
