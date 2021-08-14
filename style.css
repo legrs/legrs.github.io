@@ -26,10 +26,12 @@ body{
 	text-align: center;
 	line-height:50px;
 	background-color: #4f4;
-	border-radius: 8px;
+	border-radius: 4px;
 	transition: 400ms;
 	position: relative; 
     	top: 20px; 
+	border-bottom: 5px solid #888;
+	
 
 }
 .btn:hover{
