@@ -28,9 +28,7 @@ body{
 	line-height:50px;
 	background-color: #4f4;
 	border-radius: 4px;
-	transition: 400ms;
-	position: relative; 
-    	top: 20px; 
+	transition: all 400ms;
 	border-bottom: 5px solid #888;
 	
 
@@ -42,7 +40,7 @@ body{
 .btn:active{
 	border-bottom: 0px solid #888;
 	margin-top: 5px;
-	transition: 100ms;
+	transition: all 100ms;
 }
 
 
