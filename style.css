@@ -30,7 +30,8 @@ body{
 	border-radius: 4px;
 	transition: all 400ms;
 	border-bottom: 5px solid #888;
-		margin-top: 0px;
+	position:relative;
+	margin-top: 0px;
 
 }
 .btn:hover{
@@ -39,6 +40,7 @@ body{
 }
 .btn:active{
 	border-bottom: 0px solid #888;
+		position:relative;
 	margin-top: 5px;
 	transition: all 100ms;
 }
