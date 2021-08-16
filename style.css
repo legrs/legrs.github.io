@@ -20,9 +20,7 @@ body{
 
 .btn{
 	display: inline;
-	/*height: 100px;
-	width: 200%;*/
-	padding:0px 8px;
+	padding:4px 16px;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
