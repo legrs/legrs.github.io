@@ -21,7 +21,6 @@ body{
 	line-height:50px;
 	background-color: #1e90ff;
 	border-radius: 4px;
-	transition: all 400ms;
 	position:relative;
 	top: 0px;
 
@@ -30,6 +29,7 @@ body{
 	background-color: #00bfff;
 	color:#fff;
 	transtion:all 400ms;
+}
 .hbtn:active{
         background-color:#4477cc;
 }
