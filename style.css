@@ -28,7 +28,6 @@ body{
 }
 .hbtn:hover{
 	background-color: #11bcff;
-	transition: background-color 300ms 0s;
 }
 .hbtn:active{
         background-color:#4477cc;
