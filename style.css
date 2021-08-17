@@ -12,7 +12,24 @@ body{
 
 
 
+.hbtn{
+	display: inline;
+	padding:10px 16px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height:50px;
+	background-color: #1e90ff;
+	border-radius: 4px;
+	transition: all 400ms;
+	position:relative;
+	top: 0px;
 
+}
+.hbtn:hover{
+	background-color: #00bfff;
+	color:#fff;
+	transtion:all 400ms;
 
 
 
