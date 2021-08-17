@@ -23,12 +23,13 @@ body{
 	border-radius: 4px;
 	position:relative;
 	top: 0px;
+	transtion:background-color 400ms;
 
 }
 .hbtn:hover{
 	background-color: #00bfff;
 	color:#fff;
-	transtion:all 400ms;
+	transtion:background-color 400ms;
 }
 .hbtn:active{
         background-color:#4477cc;
