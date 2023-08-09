@@ -174,3 +174,11 @@ nav ul li:hover{
     transition: all 50ms 0s ease;
 }
 
+.namee{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.namee2{
+	font-size: 10px;
+}
