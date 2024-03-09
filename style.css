@@ -1,190 +1,62 @@
 @charset "utf-8";
-body{
-    margin: 0;
-    padding: 0;
+
+#navigation{
+    border: 3px solid #000;
+    width: 10vw;
+    position: absolute;
 }
-.usuisironisuru{
-    width:1000px;
-    height:500px;
-    margin: 0 auto;
-    bacground-color:#ccc;
+#TOPimage{
+    border: #000 solid 3px;
+    height: 30vh;
+    display: inline-block;
 }
-
-
-
-.hbtn{
-	display: inline;
-	padding:10px 16px;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-	line-height:50px;
-	background-color: #1e90ff;
-	transition: background-color 300ms 0s;
-	border-radius: 4px;
-	position:relative;
-	top: 0px;
-
+#menu{
+    position: fixed;
 }
-.hbtn:hover{
-	background-color: #11bcff;
+#main{
+    position: absolute;
+    left: 15vw;
 }
-.hbtn:active{
-        background-color:#4477cc;
+#menuH{
+    background-color: rgb(0, 251, 255);
 }
-
-
-
-
-
-.btn{
-	display: inline;
-	padding:8px 16px;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-	line-height:50px;
-	background-color: #4f4;
-	border-radius: 4px;
-	transition: all 400ms;
-	border-bottom: 5px solid #888;
-	position:relative;
-	top: 0px;
-
+#menuH2{
+    background-color: rgb(0, 255, 123);
 }
-.btn:hover{
-	background-color: #8f8;
-	color:#555;
+.bodyimg{
+    background-image: url("./img/background.png");
+    text-align:center;
 }
-.btn:active{
-	border-bottom: 0px solid #888;
-		position:relative;
-	top: 5px;
-	transition: all 100ms;
+.greeen{
+    background: #fff200;
+    border: #000 double 5px;
+    display: inline-block;
 }
-
-#tyuu{
-	border:5px solid red;
+#about{
+    width: 800px;
 }
-#tyuuu{
-
-	font-size:25px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .legrstit{
 	font-size:300%;
+    font-weight: 500;
 	margin: 0 auto;
 }
-
-#fotternotest {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-    z-index:5000;
-}
-.tokuitigau{
+.redColor{
     color: red;
-    
+    font-size: 4vh;
 }
-.prof{
-    background-color: #eee;
-    padding:20px;
-    margin:auto;
-    border-radius:8px;
-    box-shadow: 0px 0px 10px 4px #bbb;
+#prof{
+    border: #000 solid 3px;
+    text-align: left;
 }
-footer {
-  margin-top: auto;
+#bigmoji{
+    font-size: 50px;
 }
-
-h2 {
-  padding: 1rem 2rem;
-  border-left: 5px solid #aaa;
-  background: #f4f4f4;
+.hidari{
+    text-align: left;
 }
-.countbox {
-    padding: 0;
-    margin: 0;
-    color: #2c2c2f;
-    background: #eee;
-}
-nav{
-    background-color: #eeeeee;
-    height: 54px;
-    width:100%;
-}
-nav{
-    border-bottom: 5px solid #ccc;
-    position: fixed;
-    width: 100%;
-    z-index:10000;
-}
-nav ul{
-    position: absolute;
-    left:10%;
-    display: table;
-    margin: 0 auto;
-    padding: 0;
-    width: 80%;
-    text-align: center;
-}
-nav ul li{
-    display: table-cell;
-    min-width: 50px;
-    transition: all 300ms 0s ease;
-}
-nav ul li a{
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 10px 0;
-       text-decoration: none;
-    color: #aaa;
-    font-size: 20px;
-    background-color: #eee;
-    transition: background-color 300ms 0s;
-    transition: color 300ms 0s;
-}
-nav ul li.current{
-    font-weight: bold;
-    border-top: 5px solid #00B0F0;
-}
-nav ul li.current a{
-    color: #00B0F0;
-    transition: color 300ms 0s;
-}
-nav ul li a:hover{
-    color: #ffffff;
-    background-color: #ccccff;
-    transition: background-color 300ms 0s;
-}
-nav ul li:hover{
-    border-top: 5px solid #88aaff;
-    transition: all 50ms 0s ease;
-}
-
 .namee{
-	font-size: 20px;
-	font-weight: bold;
+    font-weight: 700;
 }
-
 .namee2{
-	font-size: 18px;
+    font-size: 15px;
 }
