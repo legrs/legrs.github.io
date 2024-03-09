@@ -48,7 +48,9 @@
     border: #000 solid 3px;
     text-align: left;
 }
-#bigmoji{
+.bigmoji{
+    
+    color: red;
     font-size: 50px;
 }
 .hidari{
