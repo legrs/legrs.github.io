@@ -15,8 +15,6 @@
     border: #000 double 5px;
     display: inline-block;
     text-align: center;
-    display:flex; 
-    justify-content:center;
 }
 #about{
     width: 40rem;
