@@ -82,8 +82,10 @@ a{
     width: 600vw;
     height: auto;
     margin: auto;
+    loading: lazy;
 }
 .imgs{
     width: 200vw;
     height: auto;
+    loading: lazy;
 }
