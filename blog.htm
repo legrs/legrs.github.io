@@ -14,7 +14,7 @@
 				
 		<div class="blog-block"><!-- 上に追加するんだぞ------------------------------------------>
                     <h3 class="midashi" style="display:block;">肉眼大彗星(C/2023 A3)<span class="blog-nitiji">2024/10/13</span></h3>
-			<dic class="contents" style="display:none;">
+			<div class="contents" style="display:none;">
 		    <br><br>
                     <p>c2023a3を見た感想を書きます</p>
                     	<img src="./img/blog/240820Sengoku.jpg" alt="" width="600px" height="auto" loading="lazy">
@@ -39,11 +39,12 @@
                     <img src="./img/blog-star.png" alt="" loading="lazy"> 
                     <img src="./img/blog-star.png" alt="" loading="lazy"> 
                     <img src="./img/blog-star.png" alt="" loading="lazy"> <br><br><!------------------------------------------------->
-		</div>
-                </div><br>
+		</div></div><br>
 
+				
 		 <div class="blog-block"><!-- 上に追加するんだぞ----------------------------------------------------->
-                    <h3 class="midashi">自作赤道儀の進捗<span class="blog-nitiji">2024/08/20</span></h3>
+                    <h3 class="midashi" style="display:block;">自作赤道儀の進捗<span class="blog-nitiji">2024/08/20</span></h3>
+			 <div class="contents" style="display:none;">
 			 <br><br>
                     <p>作成中の自作赤道儀ですが、部品調達が終わって3Dプリントを始めたので、報告します</p>
                     	<img src="./img/blog/240820Sengoku.jpg" alt="" width="600px" height="auto" loading="lazy">
@@ -70,13 +71,14 @@
                     <img src="./img/blog-star.png" alt="" loading="lazy"> 
                     <img src="./img/blog-star.png" alt="" loading="lazy"> 
                     <img src="./img/blog-star.png" alt="" loading="lazy"> <br><br><!----------------------------------------------------->
-                </div><br>
+                </div></div><br>
+			 
 
 
 				
                 <div class="blog-block"><!-- 上に追加するんだぞ------------------------------------------------>
-                    <h3 class="midashi">テンプレート<span class="blog-nitiji">2024/07/27</span></h3>
-			<div class="">
+                    <h3 class="midashi" style="display:block;">テンプレート<span class="blog-nitiji">2024/07/27</span></h3>
+			<div class="contents" style="display:none;">
 			<br><br>
                     <p>ｔｅｍｐｌａｔｅテンプレート</p>
                     <img src="./img/01.jpg" alt="" width="600px" height="auto" loading="lazy">
@@ -90,7 +92,7 @@
                     <img src="./img/blog-star.png" alt="" loading="lazy"> 
                     <img src="./img/blog-star.png" alt="" loading="lazy"> 
                     <img src="./img/blog-star.png" alt="" loading="lazy"> <br><br><!---------------------------------------------------->
-                </div><br>
+                </div></div><br>
                 
 			</div>
 	<script>
@@ -100,14 +102,14 @@
 		for(let i=0;i<m.length;i++){
 			isExpand.push(false);
 			m[i].addEventListener("click",()=>{
-				if(isExpand){
-					isExpand = !isExpand;	
+				if(isExpand[i]){
+					isExpand[i] = !isExpand[i];	
 					console.log("expandされているのでfoldする");
-					c.style.display = "none";
+					c[i].style.display = "none";
 				}else{
-					isExpand = !isExpand;
+					isExpand[i] = !isExpand[i];
 					console.log("foldされているのでexpandする");
-					c.style.display = "block";
+					c[i].style.display = "block";
 				}
 			});
 		}
