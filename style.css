@@ -79,13 +79,13 @@ a{
     margin: auto;
 }
 .imgs{
-    width: 600vw;
+    width: 60vw;
     height: auto;
     margin: auto;
     loading: lazy;
 }
-.imgs{
-    width: 200vw;
+.imgs2{
+    width: 20vw;
     height: auto;
     loading: lazy;
 }
