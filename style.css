@@ -98,10 +98,25 @@ a{
     width: 60vw;
     height: auto;
     margin: auto;
-    loading: lazy;
 }
 .imgs2{
     width: 20vw;
     height: auto;
-    loading: lazy;
+}
+
+body.frames-body{
+    margin: 0;
+}
+.frames{
+    display: flex;
+    height: 100vh;
+}
+.frames iframe{
+    border: 1px solid #808080;
+}
+.frames iframe:first-child{
+    flex: 10 0 0;
+}
+.frames iframe:last-child{
+    flex: 80 0 0;
 }

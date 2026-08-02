@@ -1,15 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-	<link rel="shortcut icon" href="favicon.ico">
-		<meta charset="UTF-8"/>
-		<title>Ｌｅｇｒｓのホームページ</title>
-		<link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>Ｌｅｇｒｓのホームページ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<frameset cols=10,80>
-  <frame src="./menu2.htm" marginheight="0" marginwidth="0" scrolling="auto" name="leftt" >
-  <frame src="./image.htm" marginheight="0" marginwidth="0" scrolling="auto" name="rightt">
-  <noframes>
-  <body></body>
-  </noframes>
-</frameset>
+<body class="frames-body">
+    <div class="frames">
+        <iframe src="./menu2.htm" name="leftt" title="目次"></iframe>
+        <iframe src="./image.htm" name="rightt" title="コンテンツ"></iframe>
+    </div>
+</body>
 </html>
